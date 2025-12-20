@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navigation from './Customers/Components/Navigation/Navigation'
+import HomePage from './Customers/Pages/HomePage/HomePage'
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       Tailwind working 🎉
     </h1> */}
     <Navigation></Navigation>
+  
+      <HomePage></HomePage>
+   
     </>
 
   )
